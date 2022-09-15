@@ -1,0 +1,13 @@
+org/academiadecodigo/bootcamp/dao/GenericDao.class
+org/academiadecodigo/bootcamp/SpringBootstrap.class
+org/academiadecodigo/bootcamp/dao/JPAUserDao.class
+org/academiadecodigo/bootcamp/model/User.class
+org/academiadecodigo/bootcamp/model/Challenge.class
+org/academiadecodigo/bootcamp/dao/ChallengeDao.class
+org/academiadecodigo/bootcamp/controller/MainController.class
+org/academiadecodigo/bootcamp/service/ChallengeService.class
+org/academiadecodigo/bootcamp/dao/Dao.class
+org/academiadecodigo/bootcamp/service/UserService.class
+org/academiadecodigo/bootcamp/dao/UserDao.class
+org/academiadecodigo/bootcamp/dao/JPAChallengeDao.class
+org/academiadecodigo/bootcamp/service/MultiplierService.class

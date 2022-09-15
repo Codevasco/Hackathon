@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="userList">
+        <table class="table table-striped">
+            <tr>
+                <th>Id</th>
+                <th>Username</th>
+                <th>Phone</th>
+                <th>Rating</th>
+            </tr>
+            <tr th:each="user : ${users}">
+                <td th:text="${user.id}"></td>
+                <td th:text="${user.username}"></td>
+                <td th:text="${customer.phone}"></td>
+                <td th:text="${user.rating}"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

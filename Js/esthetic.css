@@ -1,0 +1,96 @@
+*{
+    font-family:'Abel';
+    color: white;
+}
+
+#partyChooser {
+    height:auto;
+    display: flex;
+    background-image: linear-gradient(pink,purple);
+    list-style-type:none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    justify-content:space-around;
+    align-items: center;
+    /*position: fixed;*/
+    width: 100%;
+
+}
+
+.container{
+    display: flex;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 50px;
+    justify-content: center;
+    align-content: center;
+}
+
+
+#main-content {
+    height: 2000px;
+    display: flex;
+    width:100%;    
+    align-items: center;
+    background-color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    align-items:  center;
+}
+
+#sidebar {
+    width: 100px;
+    display:flex;
+    color: white;
+    background-color: rgb(69, 72, 72);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    color: white;
+    top: 40px;
+    position: sticky;
+    align-content: center;
+}
+
+ul {
+    display: flex;
+    list-style-type:none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+}
+
+main{
+    display:flex;
+    background-color: rgb(69, 72, 72);
+}
+
+#footer {
+    height: 100px;
+    background-image: linear-gradient(blue);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    color: white;
+    justify-content: center;
+    align-items:  center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+body{
+    background-image: linear-gradient(pink,purple,blue);
+        /*background-image: url("https://blog.way.com/wp-content/uploads/2022/07/I-love-the-90s-tour-cover-scaled.jpg");*/
+    margin: 0px;
+}
+
+.image{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+th{
+    font-size: xx-large;
+}
+
+td{
+    font-size: larger;
+}
